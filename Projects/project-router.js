@@ -36,7 +36,7 @@ router.post("/", async (req, res) => {
 
            projects.push(freshProject);
 
-           res.status(201).send(`You have successfully added a new project name ${req.body.title}`);
+           res.status(201).send(`You have successfully added a new project called ${req.body.title}`);
        }
    } catch (error) {
 
