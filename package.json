@@ -1,0 +1,33 @@
+{
+  "name": "Survani-API",
+  "version": "1.0.0",
+  "description": "Personal API for my personal site.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/survani/survani-API.git"
+  },
+  "keywords": [
+    "server",
+    "API",
+    "Survani"
+  ],
+  "author": "Giovani Garfias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/survani/survani-API/issues"
+  },
+  "homepage": "https://github.com/survani/survani-API#readme"
+}
